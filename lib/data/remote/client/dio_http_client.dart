@@ -1,17 +1,12 @@
 import 'package:cost_plan/data/base/base_http_client.dart';
 import 'package:cost_plan/data/base/http_response.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/data/remote/http_request_type.dart';
-import '../../../internal/provider_graph.dart';
 
 class DioHttpClient extends BaseHttpClient {
-  final Ref _ref;
   late final Dio _client;
-  DioHttpClient(this._ref) {
-    _client = _ref.read(ProviderGraph.dioProvider);
-  }
+  DioHttpClient(this._client);
 
   @override
   Future<HttpResponse> executeHttpRequest({

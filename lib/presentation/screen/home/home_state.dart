@@ -1,10 +1,5 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+part of 'home_bloc.dart';
 
-import '../../../core/presentation/screen_state.dart';
+sealed class HomeState {}
 
-part 'home_state.freezed.dart';
-
-@freezed
-class HomeState with _$HomeState {
-  const factory HomeState({required ScreenState screenState}) = _HomeState;
-}
+class HomeInitial extends HomeState {}
