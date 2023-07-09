@@ -145,6 +145,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
+  charcode:
+    dependency: transitive
+    description:
+      name: charcode
+      sha256: fb98c0f6d12c920a02ee2d998da788bca066ca5f148492b7085ee23372b12306
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.1"
   checked_yaml:
     dependency: transitive
     description:
@@ -257,6 +265,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.2.1+1"
+  drift:
+    dependency: "direct main"
+    description:
+      name: drift
+      sha256: a8ec4e44b4359ef44eab3d2c2f8e44b41a00c15673b879984484b34d27656ad5
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.9.0"
+  drift_dev:
+    dependency: "direct dev"
+    description:
+      name: drift_dev
+      sha256: "2713aabc91d8e9cdf269b2ecfa503f103341925b07186e845de11a781015f7eb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.9.0"
   dropdown_button2:
     dependency: "direct main"
     description:
@@ -758,7 +782,7 @@ packages:
     source: hosted
     version: "2.1.0"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
@@ -774,7 +798,7 @@ packages:
     source: hosted
     version: "1.0.1"
   path_provider:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_provider
       sha256: "04890b994ee89bfa80bf3080bfec40d5a92c5c7a785ebb02c13084a099d2b6f9"
@@ -893,6 +917,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  recase:
+    dependency: transitive
+    description:
+      name: recase
+      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
   rxdart:
     dependency: "direct main"
     description:
@@ -1018,6 +1050,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  sqlite3:
+    dependency: transitive
+    description:
+      name: sqlite3
+      sha256: f7511ddd6a2dda8ded9d849f8a925bb6020e0faa59db2443debc18d484e59401
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  sqlite3_flutter_libs:
+    dependency: "direct main"
+    description:
+      name: sqlite3_flutter_libs
+      sha256: "1e20a88d5c7ae8400e009f38ddbe8b001800a6dffa37832481a86a219bc904c7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.15"
+  sqlparser:
+    dependency: transitive
+    description:
+      name: sqlparser
+      sha256: "9611f46d30a4e8286e54d17a1b5182d132512dc6fc3da90c45ad8ec2828a58b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.30.3"
   stack_trace:
     dependency: transitive
     description:

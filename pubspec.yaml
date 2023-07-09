@@ -15,6 +15,12 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
 
+  #local
+  drift: ^2.9.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.3
+
   #UI
   dropdown_button2: ^2.1.4
   cupertino_icons: ^1.0.2
@@ -70,6 +76,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  drift_dev: ^2.9.0
   flutter_lints: ^2.0.0
   build_runner: ^2.4.6
   freezed: ^2.3.2
@@ -81,13 +88,6 @@ dev_dependencies:
 flutter:
   assets:
    - assets/icons/
-  fonts:
-    - family: Nunito
-      fonts:
-        - asset: assets/fonts/Nunito-Bold.ttf
-        - asset: assets/fonts/Nunito-ExtraBold.ttf
-        - asset: assets/fonts/Nunito-Regular.ttf
-        - asset: assets/fonts/Nunito-SemiBold.ttf
   uses-material-design: true
 flutter_intl:
   enabled: true
